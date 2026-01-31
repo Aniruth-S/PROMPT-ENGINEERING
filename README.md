@@ -166,9 +166,12 @@ Semantic Search,"Finding information based on meaning, not keywords.",Enterprise
    Generative AI and LLMs utilize the Transformer architecture to process information at an unprecedented scale. While they offer transformative potential across industries—from coding to creative arts—successful deployment requires navigating the complexities of scaling laws, computational costs, and ethical responsibility.
 
    **References & Further Reading**
-      Vaswani, A., et al. (2017). "Attention Is All You Need."
-      Kaplan, J., et al. (2020). "Scaling Laws for Neural Language Models."
-      OpenAI. (2023). "GPT-4 Technical Report."
+     
+       Vaswani, A., et al. (2017). "Attention Is All You Need."
+      
+       Kaplan, J., et al. (2020). "Scaling Laws for Neural Language Models."
+      
+       OpenAI. (2023). "GPT-4 Technical Report."
 
 # Result
   Generative AI represents a paradigm shift from traditional models that classify data to systems that synthesize entirely new content by learning underlying probability distributions.Scaling laws demonstrate that increasing data and compute power does not just improve accuracy but unlocks "emergent" reasoning abilities, such as coding or logic, that were not explicitly trained.
