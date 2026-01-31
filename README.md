@@ -58,6 +58,7 @@ Step 7: Finalize and Export
 
 
 # Output
+
 Comprehensive Report: Fundamentals of Generative AI and Large Language Models (LLMs)
 
 1. Executive Summary
@@ -80,9 +81,9 @@ Generative AI refers to algorithms that can create new content, including audio,
 Core Types of Generative Models
 Several architectures have paved the way for modern GenAI.
 1. Generative Adversarial Networks (GANs): Composed of two neural networks—a Generator (creates data) and a Discriminator (evaluates data)—competing against each other. The generator tries to fool the discriminator, while the discriminator tries to distinguish real from fake.
-```
+
    <img width="784" height="534" alt="{57B217DE-0B77-45C0-8541-3DAB95EBE136}" src="https://github.com/user-attachments/assets/b9e428b6-4567-4ce6-923d-3b59eb1b36e7" />
-```
+
 2. Variational Autoencoders (VAEs): These models encode input data into a compressed representation (latent space) and then decode it back to reconstruct the output. They are excellent for generating variations of input data.
 
 3. Diffusion Models: The current state-of-the-art for image generation (e.g., Stable Diffusion). They work by gradually adding noise to data until it is random static, and then learning to reverse this process to construct a clear image from noise.
@@ -143,9 +144,9 @@ The core innovation is the "Self-Attention" mechanism. It allows the model to we
 For example, in the sentence "The animal didn't cross the street because it was too tired," the attention mechanism helps the model understand that "it" refers to the "animal" and not the "street."
 
 Mathematical Representation of Scaled Dot-Product Attention:
-```
-                $$Attention(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
-```
+
+ $$Attention(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+
          
 Q (Query): What I am looking for?
 
@@ -176,9 +177,9 @@ Content Generation,"Creating marketing copy, emails, and blogs.","Jasper, ChatGP
 Code Assistant,"Writing, debugging, and explaining code.",GitHub Copilot
 Summarization,Condensing long documents into executive briefs.,Legal/Medical Analysis
 Semantic Search,"Finding information based on meaning, not keywords.",Enterprise Search
-```
+
 <img width="258" height="195" alt="image" src="https://github.com/user-attachments/assets/873d0244-401b-4f73-ab56-f03d6ea082ca" />
-```
+
 
 
 10. Limitations and Ethical Considerations
@@ -200,5 +201,6 @@ Compute Costs: The environmental impact of training large models is significant.
       Kaplan, J., et al. (2020). "Scaling Laws for Neural Language Models."
 
        OpenAI. (2023). "GPT-4 Technical Report."
+
 # Result
   Generative AI represents a paradigm shift from traditional models that classify data to systems that synthesize entirely new content by learning underlying probability distributions.Scaling laws demonstrate that increasing data and compute power does not just improve accuracy but unlocks "emergent" reasoning abilities, such as coding or logic, that were not explicitly trained.
