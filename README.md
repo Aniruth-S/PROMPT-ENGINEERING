@@ -65,6 +65,9 @@ Comprehensive Report: Fundamentals of Generative AI and Large Language Models (L
    
 This report explores the foundational concepts of Generative Artificial Intelligence (Generative AI) and Large Language Models (LLMs). It transitions from the broader scope of AI and Machine Learning into the specific mechanisms of generative models, with a special focus on the Transformer architecture. The report also analyzes the critical impact of scaling on model performance ("scaling laws"), surveys key applications across industries, and addresses the ethical implications of deploying these powerful technologies.
 
+<img width="729" height="499" alt="{16D67B17-2EC7-44B6-9664-EB8137043087}" src="https://github.com/user-attachments/assets/9bdbcc61-7d4b-4ce1-9468-5a0c2142d6ed" />
+
+
 ## 2. Introduction to AI and Machine Learning
    
 Artificial Intelligence (AI) is the broad science of mimicking human cognitive functions. Machine Learning (ML) is a subset of AI that focuses on the ability of machines to receive data and learn for themselves without being explicitly programmed for every rule.
@@ -77,7 +80,8 @@ Generative AI refers to algorithms that can create new content, including audio,
 
 **Core Types of Generative Models**
 Several architectures have paved the way for modern GenAI.
-**1. Generative Adversarial Networks (GANs):** Composed of two neural networks—a Generator (creates data) and a Discriminator (evaluates data)—competing against each other. The generator tries to fool the discriminator, while the discriminator tries to distinguish real from fake.
+
+ **1. Generative Adversarial Networks (GANs):** Composed of two neural networks—a Generator (creates data) and a Discriminator (evaluates data)—competing against each other. The generator tries to fool the discriminator, while the discriminator tries to distinguish real from fake.
 
    <img width="784" height="534" alt="{57B217DE-0B77-45C0-8541-3DAB95EBE136}" src="https://github.com/user-attachments/assets/b9e428b6-4567-4ce6-923d-3b59eb1b36e7" />
 
@@ -126,7 +130,8 @@ The pre-trained model is further trained on a smaller, curated dataset to improv
 
 ## 7. The Impact of Scaling
 A defining characteristic of modern LLMs is the observation of Scaling Laws. Empirical evidence suggests that model performance improves predictably as you increase:
-**1.Compute:** The amount of processing power used.
+
+ **1.Compute:** The amount of processing power used.
 
 **2.Data Size:** The amount of training text.
 
